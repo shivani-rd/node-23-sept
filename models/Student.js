@@ -9,4 +9,4 @@ const StudentSchema = new Schema({
     mobileNo:{type:String}
 
 })
-module.exports=mongoose.model('Student',StudentSchema)
+module.exports=mongoose.model('Student',StudentSchema);
